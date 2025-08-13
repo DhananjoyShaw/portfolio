@@ -1,26 +1,8 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    cpp, java, python, html, css, backend, creator, mobile, web, javascript,
+    typescript, reactjs, Accenture, redux, tailwind, nodejs,
+    mongodb, git, docker, ProjectCover1, ProjectCover2, ProjectCover3, ProjectCover4,
+    Nextjs, PostgreSQL, Prisma, Supabase,
 } from "../assets";
 
 export const navLinks = [
@@ -40,24 +22,34 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Web Developer",
+        title: "Full Stack Developer",
         icon: web,
-    },
-    {
-        title: "React Native Developer",
-        icon: mobile,
     },
     {
         title: "Backend Developer",
         icon: backend,
     },
     {
-        title: "Content Creator",
+        title: "Frontend Developer",
         icon: creator,
+    },
+    {
+        title: " Data Scientist",
+        icon: mobile,
     },
 ];
 
 const technologies = [
+    {
+        name: "C++",
+        icon: cpp,
+    }, {
+        name: "Java",
+        icon: java,
+    }, {
+        name: "Python",
+        icon: python,
+    },
     {
         name: "HTML 5",
         icon: html,
@@ -73,6 +65,10 @@ const technologies = [
     {
         name: "TypeScript",
         icon: typescript,
+    },
+    {
+        name: "Next JS",
+        icon: Nextjs,
     },
     {
         name: "React JS",
@@ -102,89 +98,39 @@ const technologies = [
         name: "docker",
         icon: docker,
     },
+    {
+        name: "PostgreSQL",
+        icon: PostgreSQL,
+    }, {
+        name: "Prisma",
+        icon: Prisma,
+    }, {
+        name: "Supabase",
+        icon: Supabase,
+    },
 ];
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Development & Advanced Engineering Job Simulation",
+        company_name: "Accenture North America",
+        icon: Accenture,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "March 2025 - March 2025",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Completed a job simulation where I supported a client with a small development team overwhelmed by the growth of their code base.",
+            "Wrote a class to perform search on an interactive website in Java using the Spring Boot framework.",
+            "Set up automated builds using Jenkins to validate code changes on every push.",
+            "Managed the team's workload by preparing for a sprint and writing user stories in an Agile planning session.",
         ],
     },
 ];
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "NovaMed",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "mongodb",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: carrent,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Job IT",
-        description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "A comprehensive, full-stack web application designed to streamline the process of booking doctor appointments for patients, doctors, and administrators. The Doctor Booking Application provides a seamless experience for users to register, browse doctors by specialty, book and manage appointments, and handle payments securely. Administrators can efficiently manage doctors, appointments, and users through a dedicated admin portal, while doctors can view and manage their schedules and profiles.",
         tags: [
             {
                 name: "react",
@@ -199,13 +145,34 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: ProjectCover1,
+        source_code_link: "https://github.com/cryptasim/Doctor-Booking-Application",
     },
     {
-        name: "Trip Guide",
+        name: "GearGrid",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "A modern, full-stack car marketplace built with Next.js 15, featuring AI-powered image search, test drive bookings, and comprehensive car management. GearGrid provides an intuitive platform for users to discover, save, and test drive vehicles with advanced search capabilities.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "restapi",
+                color: "green-text-gradient",
+            },
+            {
+                name: "scss",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: ProjectCover2,
+        source_code_link: "https://github.com/DhananjoyShaw/gear-grid",
+    },
+    {
+        name: "JobForge",
+        description:
+            "A modern job portal application that connects students with recruiters, featuring role-based authentication, job posting/application management, and real-time search functionality.",
         tags: [
             {
                 name: "nextjs",
@@ -220,9 +187,31 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: ProjectCover3,
+        source_code_link: "https://github.com/DhananjoyShaw/job-portal",
+    }, {
+        name: "ChatStack",
+        description:
+            "A modern real-time chat application using the MERN stack with a React front-end and Node.js back-end, featuring individual messaging, group chats, file sharing, and real-time communication using Socket.IO.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "mongodb",
+                color: "green-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: ProjectCover4,
+        source_code_link: "https://github.com/DhananjoyShaw/Chat-Application",
     },
 ];
 
 export { services, technologies, experiences, projects };
+
+

@@ -7,6 +7,9 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import cpp from "./tech/cpp.png";
+import java from "./tech/java.png";
+import python from "./tech/python.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -20,15 +23,17 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import Nextjs from "./tech/Nextjs.png";
+import PostgreSQL from "./tech/PostgreSQL.png";
+import Prisma from "./tech/Prisma.png";
+import Supabase from "./tech/Supabase.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import Accenture from "./company/Accenture.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import ProjectCover1 from "./ProjectCover1.png";
+import ProjectCover2 from "./ProjectCover2.png";
+import ProjectCover3 from "./ProjectCover3.png";
+import ProjectCover4 from "./ProjectCover4.png";
 
 export {
   logo,
@@ -50,13 +55,19 @@ export {
   reactjs,
   redux,
   tailwind,
-  typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  typescript,
+  cpp,
+  java,
+  python,
+  Accenture,
+  ProjectCover1,
+  ProjectCover2,
+  ProjectCover3,
+  ProjectCover4,
+  Nextjs,
+  PostgreSQL,
+  Prisma,
+  Supabase,
 };
+
