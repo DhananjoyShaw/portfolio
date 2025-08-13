@@ -62,10 +62,10 @@ const technologies = [
         name: "JavaScript",
         icon: javascript,
     },
-    {
-        name: "TypeScript",
-        icon: typescript,
-    },
+    // {
+    //     name: "TypeScript",
+    //     icon: typescript,
+    // },
     {
         name: "Next JS",
         icon: Nextjs,
@@ -74,14 +74,10 @@ const technologies = [
         name: "React JS",
         icon: reactjs,
     },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
-    {
-        name: "Tailwind CSS",
-        icon: tailwind,
-    },
+    // {
+    //     name: "Tailwind CSS",
+    //     icon: tailwind,
+    // },
     {
         name: "Node JS",
         icon: nodejs,
@@ -91,19 +87,12 @@ const technologies = [
         icon: mongodb,
     },
     {
-        name: "git",
-        icon: git,
-    },
-    {
         name: "docker",
         icon: docker,
     },
     {
         name: "PostgreSQL",
         icon: PostgreSQL,
-    }, {
-        name: "Prisma",
-        icon: Prisma,
     }, {
         name: "Supabase",
         icon: Supabase,
@@ -130,19 +119,29 @@ const projects = [
     {
         name: "NovaMed",
         description:
-            "A comprehensive, full-stack web application designed to streamline the process of booking doctor appointments for patients, doctors, and administrators. The Doctor Booking Application provides a seamless experience for users to register, browse doctors by specialty, book and manage appointments, and handle payments securely. Administrators can efficiently manage doctors, appointments, and users through a dedicated admin portal, while doctors can view and manage their schedules and profiles.",
+            "A comprehensive, full-stack platform that provides three distinct portals: one for patients to easily find doctors and book appointments, one for doctors to manage their profiles and schedules, and a comprehensive dashboard for admins to oversee the entire operation. The result is a seamless, role-based application that streamlines the healthcare experience for everyone involved.",
         tags: [
             {
-                name: "react",
+                name: "React",
                 color: "blue-text-gradient",
-            },
-            {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
+            }, {
+                name: "Node.js",
                 color: "pink-text-gradient",
+            }, {
+                name: "Express.js",
+                color: "blue-text-gradient",
+            }, {
+                name: "Tailwind CSS",
+                color: "pink-text-gradient",
+            }, {
+                name: "MongoDB",
+                color: "green-text-gradient",
+            }, {
+                name: "Cloudinary",
+                color: "blue-text-gradient",
+            }, {
+                name: "Razorpay",
+                color: "green-text-gradient",
             },
         ],
         image: ProjectCover1,
@@ -151,19 +150,36 @@ const projects = [
     {
         name: "GearGrid",
         description:
-            "A modern, full-stack car marketplace built with Next.js 15, featuring AI-powered image search, test drive bookings, and comprehensive car management. GearGrid provides an intuitive platform for users to discover, save, and test drive vehicles with advanced search capabilities.",
+            "A modern, full-stack application using Next.js for high performance, PostgreSQL with the Prisma ORM, and integrated Gemini AI to power the visual search and car details extraction feature. The result is a responsive, modern marketplace that offers a truly innovative way for users to find and test drive their next vehicle.",
         tags: [
             {
-                name: "react",
+                name: "Next.js",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "React",
+                color: "blue-text-gradient",
+            }, {
+                name: "Gemini AI",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Supabase",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "PostgreSQL",
                 color: "pink-text-gradient",
+            }, {
+                name: "Prisma",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Tailwind CSS",
+                color: "pink-text-gradient",
+            }, {
+                name: "Shadcn UI",
+                color: "green-text-gradient",
             },
         ],
         image: ProjectCover2,
@@ -172,19 +188,29 @@ const projects = [
     {
         name: "JobForge",
         description:
-            "A modern job portal application that connects students with recruiters, featuring role-based authentication, job posting/application management, and real-time search functionality.",
+            "A modern, full-stack job portal with role-based authentication where students can build profiles and apply for jobs, and recruiters can post positions and manage applicants. I developed this MERN stack application, implementing JWT authentication, real-time job updates using Redux for state management, and Cloudinary for resume uploads.",
         tags: [
             {
-                name: "nextjs",
+                name: "React",
                 color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
+            }, {
+                name: "redux",
+                color: "blue-text-gradient",
+            }, {
+                name: "Node.js",
                 color: "pink-text-gradient",
+            }, {
+                name: "Express.js",
+                color: "blue-text-gradient",
+            }, {
+                name: "Tailwind CSS",
+                color: "pink-text-gradient",
+            }, {
+                name: "MongoDB",
+                color: "green-text-gradient",
+            }, {
+                name: "Cloudinary",
+                color: "blue-text-gradient",
             },
         ],
         image: ProjectCover3,
@@ -192,19 +218,29 @@ const projects = [
     }, {
         name: "ChatStack",
         description:
-            "A modern real-time chat application using the MERN stack with a React front-end and Node.js back-end, featuring individual messaging, group chats, file sharing, and real-time communication using Socket.IO.",
+            "A full-stack chat application built on the MERN stack that goes beyond simple text messaging, featuring one-on-one chats, group chat functionality, and integrated file sharing. My role was to build the application, with a focus on implementing Socket.IO for instant, bidirectional communication and Cloudinary for optimized media transfers.",
         tags: [
             {
-                name: "react",
+                name: "React",
                 color: "blue-text-gradient",
-            },
-            {
-                name: "mongodb",
-                color: "green-text-gradient",
-            },
-            {
-                name: "tailwind",
+            }, {
+                name: "Socket.IO",
+                color: "blue-text-gradient",
+            }, {
+                name: "Node.js",
                 color: "pink-text-gradient",
+            }, {
+                name: "Express.js",
+                color: "blue-text-gradient",
+            }, {
+                name: "Tailwind CSS",
+                color: "pink-text-gradient",
+            }, {
+                name: "MongoDB",
+                color: "green-text-gradient",
+            }, {
+                name: "Cloudinary",
+                color: "blue-text-gradient",
             },
         ],
         image: ProjectCover4,

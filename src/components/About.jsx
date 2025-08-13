@@ -47,11 +47,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+      I am a passionate and analytical software developer with a strong foundation in 
+      Data Structures and Algorithms and a dedication to honing my problem-solving skills on platforms like LeetCode. I specialize in building intelligent, full-stack web applications using the MERN stack and Next.js. My expertise lies in creating efficient, scalable solutions and tackling complex challenges, from developing real-time functionalities to implementing robust data analysis and machine learning models. I am driven by a desire to solve complex problems and am eager to collaborate on building innovative and impactful technology.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
